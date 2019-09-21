@@ -6,8 +6,17 @@ A case study on using machine learning for automatic credit card approval.
 
 <p>Credit card approval is a perfect case study for applied machine learning since the application approval process can be easily framed as a classification problem. The underlying pattern that differentiates between trustworthy customers and unreliable customers can be ascertained through the customer's credit and personal details. The conventional system for approvals were subjective and based on the bank manager's experience. Using machine learning, this subjective judgement can be supplemented with quantitave metrics that can lead to faster and more accurate approval processes. </p>
 
-<p> This analysis will involve data pre-processing and cleaning followed by an exploratory analysis. Pre-processing is reqired to deal with the missing values and prepping the dataset for use in machine learning libraries. After some exploratory analysis, we'll build a pipeline that will test several machine learning models and their predictors for the credit card applications.</p>  
+<p> This analysis will involve data pre-processing and cleaning followed by an exploratory analysis. Pre-processing is reqired to deal with the missing values and prepping the dataset for use in machine learning libraries. After some exploratory analysis, we'll build a pipeline that will test several machine learning models and their predictors for the credit card applications.</p> 
 
+The classifiers that will be used in this case study are listed below:
+<ol>
+  <li>Logistic regression</li>
+  <li>K nearest neighbors</li>
+  <li>Gradient boosted trees</li>
+  <li>Support vector machines</li>
+  <li>Deep neural networks</li>
+</ol>
+Additionally, LASSO will be used for feature selection.
 
 <p><sub>Sources:</sub><br>    
 <sub>Data: Credit Approval Data Set, UCI Machine Learning Repository</sub><br>
